@@ -1,28 +1,52 @@
 # @stackline/retext-equality
 
-Independent maintenance fork of `retext-equality@6.6.0`, preserving its API and published type declarations.
+> retext plugin to warn about possible insensitive, inconsiderate language.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/retext-equality.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/retext-equality)
+[![license](https://img.shields.io/npm/l/@stackline/retext-equality.svg?style=flat-square)](https://github.com/alexandroit/stackline-retext-equality)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-retext-equality-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-retext-equality)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/retext-equality/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/retext-equality/)** | **[npm](https://www.npmjs.com/package/@stackline/retext-equality)** | **[Issues](https://github.com/alexandroit/stackline-retext-equality/issues)** | **[Repository](https://github.com/alexandroit/stackline-retext-equality)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/retext-equality` is the Stackline-maintained distribution of `retext-equality@6.6.0`. It is an independent continuation of [retext-equality](https://github.com/retextjs/retext-equality); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/retext-equality@1.0.1` |
+| API target | `retext-equality@6.6.0` |
+| Supported Node.js | `See supported framework requirements` |
+| License | `MIT` |
+| Module type | `module` |
+| Main entry | `index.js` |
+| Types | `index.d.ts` |
+| Runtime dependencies | `vfile, unified, quotation, @types/nlcst, @types/unist, nlcst-search, unist-util-is, nlcst-normalize, nlcst-to-string, unist-util-visit` |
+
+## Installation
+
+```bash
 npm install @stackline/retext-equality
-# Keep existing imports:
-npm install retext-equality@npm:@stackline/retext-equality@1.0.0
 ```
 
-[Stackline](https://alexandro.net/) · [Issues](https://github.com/alexandroit/stackline-retext-equality/issues) · [Community](https://www.reddit.com/r/Stackline/)
+Preserve existing imports and plugin resolution with an npm alias:
 
-See [UPSTREAM.md](UPSTREAM.md) for source identity and issue review, and [CHANGELOG.md](CHANGELOG.md) for maintenance changes. Functional tests also run against the final npm tarball; releases are published from GitHub Actions with provenance.
+```bash
+npm install retext-equality@npm:@stackline/retext-equality
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# retext-equality
+### retext-equality
 
-[![Build][build-badge]][build]
-[![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
-[![Size][size-badge]][size]
-[![Sponsors][sponsors-badge]][collective]
-[![Backers][backers-badge]][collective]
-[![Chat][chat-badge]][chat]
 
 [**retext**][retext] plugin to check for possible insensitive, inconsiderate
 language.
@@ -35,7 +59,7 @@ Node 12+ is needed to use it and it must be `import`ed instead of `require`d.
 [npm][]:
 
 ```sh
-npm install retext-equality
+npm install @stackline/retext-equality
 ```
 
 ## Use
@@ -53,7 +77,7 @@ import {readSync} from 'to-vfile'
 import {reporter} from 'vfile-reporter'
 import {unified} from 'unified'
 import retextEnglish from 'retext-english'
-import retextEquality from 'retext-equality'
+import retextEquality from '@stackline/retext-equality'
 import retextStringify from 'retext-stringify'
 
 const file = readSync('example.txt')
@@ -106,7 +130,7 @@ following fields:
 
 ###### `message.source`
 
-Name of this plugin (`'retext-equality'`).
+Name of this plugin (`'@stackline/retext-equality'`).
 
 ###### `message.ruleId`
 
@@ -157,7 +181,7 @@ abide by its terms.
 
 [MIT][license] © [Titus Wormer][author]
 
-<!-- Definitions -->
+
 
 [build-badge]: https://github.com/retextjs/retext-equality/workflows/main/badge.svg
 
@@ -208,3 +232,40 @@ abide by its terms.
 [test]: test.js
 
 [rules]: rules.md
+
+## Credits and original authors
+
+- Original project: [retext-equality](https://github.com/retextjs/retext-equality).
+- Titus Wormer.
+- Shinnosuke Watanabe.
+- Elliott Hauser.
+- Ryan Tucker.
+- David Simons.
+- rugk.
+- Eli Feasley.
+- Eli Sadoff.
+- Flip Stewart.
+- Catherine Etter.
+- Conlin Durbin.
+- Jen Weber.
+- Matsuko.
+- Saksham Gupta.
+- Aaron Miller.
+- Alicia Gansley.
+- Anna K.
+- Bryce Kahle.
+- Ben Hall.
+- Copyright (c) 2015 Titus Wormer <tituswormer@gmail.com>.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.

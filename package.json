@@ -26,8 +26,12 @@
     "test:package": "node scripts/test-package.mjs",
     "test:types": "tsc --ignoreConfig --noEmit --module NodeNext --moduleResolution NodeNext --target ES2022 --strict test/stackline-types.mts"
   },
-  "homepage": "https://github.com/alexandroit/stackline-retext-equality#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/retext-equality/",
   "keywords": [
+    "stackline",
+    "npm-package",
+    "retext-equality",
+    "typescript",
     "unified",
     "retext",
     "retext-plugin",
@@ -43,10 +47,7 @@
     "insensitive",
     "neutral",
     "writing",
-    "language",
-    "english",
-    "stackline",
-    "maintenance-fork"
+    "language"
   ],
   "prettier": {
     "semi": false,
@@ -183,7 +184,7 @@
     "typescript": "7.0.2",
     "@types/node": "24.12.2"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publishConfig": {
     "access": "public"
   },
