@@ -1,0 +1,26 @@
+{
+  "upstream": "retext-equality",
+  "fork": "@stackline/retext-equality",
+  "repository": "alexandroit/stackline-retext-equality",
+  "upstreamRepository": "retextjs/retext-equality",
+  "upstreamVersion": "6.6.0",
+  "sourceCommit": "a94a6521e987bbf6cbf4d362e7e35244aa086311",
+  "upstreamIntegrity": "sha512-il0Q8Dlxluc67UQnk49XmwISl3mzf1Lvuat0yZKzR2NuuluzTXI4EK44HA5JOobt/vmYkDaJaDsxHf0MmE4OMA==",
+  "status": "source-ready",
+  "files": {
+    "license": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf",
+    "en.js": "9dfb40793befb7083f5aa77dded27473bbe4720da96da5bbc97278b5ced2b9c0",
+    "lib/en.js": "150b10c12f96925609ea680fce1a72407d3de1b21ab77ad3d21d2d7c04e9c1c1",
+    "lib/factory.js": "daee3688952c61ed37ea55a599a2f81af0ecb60c46b53acec3ffb058a4abf9fe",
+    "index.js": "a85ad97f3d35c6949c5057cb4aa30cbd83c6023d4fc4823e7525bf8a46a279e9",
+    "package.json": "be0e49d29cb97dca6592fa1d4ce3492b1de20b19c35b7623d11ae1093a20fe22",
+    "readme.md": "9a46177b2a70fb5eda53dbbfc1694e53c6a63741f10040008dfe9f34b93b4387",
+    "en.d.ts": "b1554d0bea346c66450c67793bf17b7f3312bcc70abfc3ea44340284aed47dcb",
+    "lib/en.d.ts": "7884cbd3fe77acd989fa3a6ab77d978a6787e4967d7bf10613331ef53748686b",
+    "lib/factory.d.ts": "2f92a3497026d80a2d43fbdaaec2f7e9df1df693682586030da488aa597c0616",
+    "index.d.ts": "5ffb88292f246341f5ac04c9a675e04b176766513b649116d436ecac3de5d60a"
+  },
+  "allowedRuntimeChanges": [],
+  "testCommand": "node --conditions development test.js",
+  "strategy": "Published upstream files, including generated declarations, are preserved and checked against SHA-256. Functional tests run against source and the extracted final package. Changes to published runtime files require an explicit reviewed allowlist."
+}
