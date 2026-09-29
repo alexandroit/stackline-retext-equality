@@ -1,0 +1,38 @@
+{
+  "repository": "alexandroit/stackline-retext-equality",
+  "packages": [
+    {
+      "name": "@stackline/retext-equality",
+      "path": "readme.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "retext-equality",
+        "typescript",
+        "unified",
+        "retext",
+        "retext-plugin",
+        "plugin",
+        "equal",
+        "race",
+        "religion",
+        "sex",
+        "orientation",
+        "identity",
+        "gender",
+        "sensitive",
+        "insensitive",
+        "neutral",
+        "writing",
+        "language"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/retext-equality/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/retext-equality/-/retext-equality-1.0.0.tgz",
+      "baselineIntegrity": "sha512-48saDxgFrAy2PuJPkmnzXYDBOWrnB1/22hwe71z7BQaRQQRIbrEUJ2SoWqUr+PhJ+UHtN7FqzXPLwl4VHUI3yQ==",
+      "expectedSha512": "bad314935e6b437456f58081e76159358965c159ababb86af34955c2f885a00fcb0d2cad5316bb315c1f31f70e071e17d0c05bbfbf5e88e5455661d5b11564f3",
+      "tag": "docs-stackline-retext-equality-v1.0.1"
+    }
+  ]
+}
